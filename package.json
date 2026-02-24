@@ -4,7 +4,7 @@
     "description": "Hello world in Node.js",
     "main": "index.js",
     "scripts": {
-        "test": "jest --coverage --watchAll=false"
+        "test": "jest --runInBand --coverage --watchAll=false"
     },
     "author": "hxu",
     "license": "MIT",
